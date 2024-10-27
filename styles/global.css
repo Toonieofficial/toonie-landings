@@ -1,0 +1,8 @@
+@charset "UTF-8";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* استایل‌های شخصی خود را اینجا اضافه کنید */
+body {
+  @apply bg-gray-50 text-gray-900;
+}/*# sourceMappingURL=global.css.map */
