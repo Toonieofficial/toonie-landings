@@ -11,7 +11,7 @@ export default function RootLayout({ children }: RootLayoutProps): JSX.Element {
     <html lang="en">
       <body className="bg-black">
         <Header />
-        <main className="min-h-screen">{children}</main>
+        <main className="container min-h-screen items-center mt-8 top-20 ">{children}</main>
       </body>
     </html>
   );
