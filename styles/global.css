@@ -5,4 +5,13 @@
 /* استایل‌های شخصی خود را اینجا اضافه کنید */
 body {
   @apply bg-gray-50 text-gray-900;
+  font-family: var(--font-roboto-mono);
+}
+
+:root {
+  --font-roboto-mono: "Roboto Mono", sans-serif;
+}
+
+.border-toonie {
+  border: 1px solid #002EFF;
 }/*# sourceMappingURL=global.css.map */
