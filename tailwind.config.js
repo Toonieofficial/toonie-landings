@@ -13,6 +13,9 @@ module.exports = {
       colors: {
         'toonie': '#002EFF',
       },
+      borderWidth: {
+        '1.5': '1.5px', 
+      },
     },
   },
   plugins: [],
