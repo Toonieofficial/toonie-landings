@@ -7,7 +7,7 @@ interface TitleProps {
 
 const Title: React.FC<TitleProps> = ({ children }) => {
     return (
-      <h2 className='text-white font-bold text-[42px] leading-[88px] font-sans'>{children}</h2>
+      <h2 className='text-white font-bold text-[65px] max-w-[700px] overflow-hidden text-ellipsis whitespace-normal font-sans'>{children}</h2>
     );
   };
   

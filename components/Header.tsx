@@ -13,15 +13,24 @@ export default function Header() {
         </Link>
         
         {/* Navigation Links */}
-        <nav className="hidden md:flex space-x-8 ml-8 text-white font-medium">
+        <nav className="w-full hidden md:flex space-x-[45px] ml-8 text-white font-medium">
           <Link href="/about" className="text-white text-[15px] hover:text-toonie transition duration-200">
             About Us
+          </Link>
+          <Link href="/about" className="text-white text-[15px] hover:text-toonie transition duration-200">
+            Wealth
+          </Link>
+          <Link href="/contact" className="text-white text-[15px] hover:text-toonie transition duration-200">
+            Career
           </Link>
           <Link href="/services" className="text-white text-[15px] hover:text-toonie transition duration-200">
             Services
           </Link>
           <Link href="/contact" className="text-white text-[15px] hover:text-toonie transition duration-200">
             Contact
+          </Link>
+          <Link href="/contact" className="text-white text-[15px] hover:text-toonie transition duration-200">
+            Get Toonie
           </Link>
         </nav>
         
