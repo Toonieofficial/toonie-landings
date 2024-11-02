@@ -26,8 +26,8 @@ export default function Home(){
             </div>
             <div className="w-full md:w-3/5 container bg-black justify mr-10 size-auto items-center ml-0 md:ml-20">
                 <Title fontSize="55px">Training</Title>
-                <p className="mt-1 clear-both text-[25px] ml-3 text-zinc-700">Financial Confidences</p>
-                <p className="mt-10 clear-both text-[18px] ml-3 text-white">Learn to budget, invest, and manage your money with Toonie’s easy courses. Start today and take control of your financial future.</p>
+                <p className="mt-1 clear-both text-[25px] text-zinc-700">Financial Confidences</p>
+                <p className="mt-10 clear-both text-[18px] text-white">Learn to budget, invest, and manage your money with Toonie’s easy courses. Start today and take control of your financial future.</p>
                 <div className="mt-[70px]">  
                     <Button variant="solid" href="/about">Start Learning Now</Button>        
                 </div>
@@ -39,8 +39,8 @@ export default function Home(){
             </div>
             <div className="w-full md:w-3/5 container bg-black justify mr-10 size-auto items-center ml-0 md:ml-20">
                 <Title fontSize="55px">Planning</Title>
-                <p className="mt-1 clear-both text-[25px] ml-3 text-zinc-700">Your Financial Roadmap</p>
-                <p className="mt-10 clear-both text-[18px] ml-3 text-white">Achieve your goals with a customized financial plan. From saving for milestones to securing retirement, we tailor strategies just for you.</p>
+                <p className="mt-1 clear-both text-[25px] text-zinc-700">Your Financial Roadmap</p>
+                <p className="mt-10 clear-both text-[18px] text-white">Achieve your goals with a customized financial plan. From saving for milestones to securing retirement, we tailor strategies just for you.</p>
                 <div className="mt-[70px]">  
                     <Button variant="solid" href="/about">Create Your Plan</Button>        
                 </div>
@@ -52,8 +52,8 @@ export default function Home(){
             </div>
             <div className="w-full md:w-3/5 container bg-black justify mr-10 size-auto items-center ml-0 md:ml-20">
                 <Title fontSize="55px">Mentoring</Title>
-                <p className="mt-1 clear-both text-[25px] ml-3 text-zinc-700">Expert Guidance</p>
-                <p className="mt-10 clear-both text-[18px] ml-3 text-white">Get personalized advice from our mentors. Make smart decisions and grow your wealth with a financial expert by your side.</p>
+                <p className="mt-1 clear-both text-[25px] text-zinc-700">Expert Guidance</p>
+                <p className="mt-10 clear-both text-[18px] text-white">Get personalized advice from our mentors. Make smart decisions and grow your wealth with a financial expert by your side.</p>
                 <div className="mt-[70px]">  
                     <Button variant="solid" href="/about">Start Learning Now</Button>        
                 </div>
