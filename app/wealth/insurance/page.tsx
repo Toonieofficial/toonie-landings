@@ -26,7 +26,7 @@ export default function Home(){
                  <Image src="/life.png" alt="life" className="rounded-[15px]" width={410} height={510} />
             </div>
             <div className="w-full md:w-3/5 container bg-black justify mr-10 size-auto items-center ml-0 md:ml-20">
-                <Title fontSize="55px">Life Insurance</Title>
+                <Title fontSize="55px" lheight="70px">Life Insurance</Title>
                 <p className="mt-1 clear-both text-[25px] text-zinc-700">Secure Your Loved Ones</p>
                 <p className="mt-10 clear-both text-[18px] text-white">Provide financial security with life insurance options tailored to your needs. Protect your family’s future today.</p>
                 <div className="mt-[70px]">  
@@ -65,7 +65,7 @@ export default function Home(){
                  <Image src="/critical.png" alt="critical" className="rounded-[15px]" width={410} height={510} />
             </div>
             <div className="w-full md:w-3/5 container bg-black justify mr-10 size-auto items-center ml-0 md:ml-20">
-                <Title fontSize="55px">Critical Illness Insurance</Title>
+                <Title fontSize="55px" lheight="61px">Critical Illness Insurance</Title>
                 <p className="mt-1 clear-both text-[25px] text-zinc-700">Financial Support</p>
                 <p className="mt-10 clear-both text-[18px] text-white">Get a lump sum payout upon diagnosis of a serious illness, so you can focus on recovery without financial stress.</p>
                 <div className="mt-[70px]">  

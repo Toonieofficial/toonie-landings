@@ -25,7 +25,7 @@ export default function Home(){
                  <Image src="/training.png" alt="training" className="rounded-[15px]" width={410} height={510} />
             </div>
             <div className="w-full md:w-3/5 container bg-black justify mr-10 size-auto items-center ml-0 md:ml-20">
-                <Title fontSize="55px">Training</Title>
+                <Title fontSize="55px" lheight="70px">Training</Title>
                 <p className="mt-1 clear-both text-[25px] text-zinc-700">Financial Confidences</p>
                 <p className="mt-10 clear-both text-[18px] text-white">Learn to budget, invest, and manage your money with Toonie’s easy courses. Start today and take control of your financial future.</p>
                 <div className="mt-[70px]">  

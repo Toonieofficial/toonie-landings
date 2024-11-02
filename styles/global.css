@@ -14,4 +14,9 @@ body {
 
 .border-toonie {
   border: 1px solid #002EFF;
+}
+
+#nprogress .bar {
+  background: #007bff; /* رنگ آبی */
+  height: 4px; /* ضخامت */
 }/*# sourceMappingURL=global.css.map */

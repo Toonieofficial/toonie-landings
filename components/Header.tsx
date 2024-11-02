@@ -17,10 +17,10 @@ export default function Header() {
           <Link href="/about" className="text-white text-[18px] hover:text-toonie transition duration-200">
             About Us
           </Link>
-          <Link href="/about" className="text-white text-[18px] hover:text-toonie transition duration-200">
+          <Link href="/wealth/financial-managment" className="text-white text-[18px] hover:text-toonie transition duration-200">
             Wealth
           </Link>
-          <Link href="/contact" className="text-white text-[18px] hover:text-toonie transition duration-200">
+          <Link href="/wealth/insurance" className="text-white text-[18px] hover:text-toonie transition duration-200">
             Career
           </Link>
           <Link href="/services" className="text-white text-[18px] hover:text-toonie transition duration-200">
