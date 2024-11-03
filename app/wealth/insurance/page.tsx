@@ -17,8 +17,10 @@ export default function Home(){
                 <Image src="/comper.png" alt="financial-managment" className="rounded-[15px]" width={510} height={510} />
             </div>
         </div>
-        <div className="container flex w-full items-center justify-center mx-auto mt-[200px]  mb-20">
-            <Image src="/training-paning.png" alt="financial-managment"  width={1210} height={510} />
+        <div className="container flex w-full items-center justify-center mx-auto mt-[200px] mb-20">
+            <div className="rounded-[15px] bg-[url('/testback.png')] py-[100px] bg-no-repeat bg-center bg-contain mx-auto">
+                <p className="text-justify text-[38px] max-w-[800px] justify-end text-white">Toonie offers a range of investment solutions to help you grow your wealth. Whether you seek expert advice or want to take charge, we provide the tools and accounts you need to succeed.</p>
+            </div>
         </div>
 
         <div className="container flex w-full items-center justify-center mx-auto ml-0 md:ml-20 mt-[200px] mb-20">
