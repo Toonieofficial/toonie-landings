@@ -7,7 +7,7 @@ export default function Home(){
     <div className="container block justify-between items-center mx-auto mt-[170px] mb-[250px]">
         <div className="block md:flex w-full">
             <div className="w-full md:w-3/5 container bg-black justify size-auto items-center ml-0 md:ml-20">
-                <Title>Comprehensive Insurance Solutions</Title>
+                <Title lheight="100px">Comprehensive Insurance Solutions</Title>
                 <p className="mt-2 clear-both text-[25px]  text-zinc-700">Coverage You Can Count On</p>
                 <div className="mt-[70px]">          
                     <Button variant="solid" href="/about">Get Started</Button>
