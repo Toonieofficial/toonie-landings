@@ -20,16 +20,16 @@ export default function Header() {
           <Link href="/wealth/financial-managment" className="text-white text-[18px] hover:text-toonie transition duration-200">
             Wealth
           </Link>
-          <Link href="/wealth/insurance" className="text-white text-[18px] hover:text-toonie transition duration-200">
+          <Link href="/career" className="text-white text-[18px] hover:text-toonie transition duration-200">
             Career
           </Link>
-          <Link href="/services" className="text-white text-[18px] hover:text-toonie transition duration-200">
+          <Link href="/wealth/insurance" className="text-white text-[18px] hover:text-toonie transition duration-200">
             Services
           </Link>
-          <Link href="/contact" className="text-white text-[18px] hover:text-toonie transition duration-200">
+          <Link href="/wealth/tax" className="text-white text-[18px] hover:text-toonie transition duration-200">
             Contact
           </Link>
-          <Link href="/contact" className="text-white text-[18px] hover:text-toonie transition duration-200">
+          <Link href="/wealth/invesment" className="text-white text-[18px] hover:text-toonie transition duration-200">
             Get Toonie
           </Link>
         </nav>
