@@ -15,7 +15,7 @@ const [hovered, setHovered] = useState(false);
         </Link>
         
         {/* Navigation Links */}
-        <nav className="w-full hidden md:flex space-x-[55px] ml-10 text-white font-medium">
+        <nav className="w-full text-[18px] hidden md:flex space-x-[55px] ml-10 text-white font-medium">
         <ul className="flex space-x-10">
         <li 
           className="relative group"
@@ -29,7 +29,7 @@ const [hovered, setHovered] = useState(false);
           {/* Submenu */}
           {hovered && (
             <ul 
-              className="absolute top-4 left-0 mt-1 w-[300px] bg-gray-800 text-white rounded-lg shadow-lg py-5"
+              className="absolute top-4 left-0 mt-1 w-[300px]  bg-[#262626] text-white rounded-[20px] shadow-lg py-5"
               onMouseEnter={() => setHovered(true)}
               onMouseLeave={() => setHovered(false)}
             >
