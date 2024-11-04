@@ -6,7 +6,7 @@ export default function Home(){
   return (
     <div className="container block justify-between items-center mx-auto mt-[170px] mb-20">
         <div className="block md:flex w-full">
-            <div className="w-full md:w-3/5 container bg-black justify size-auto items-center ml-0 md:ml-20">
+            <div className="w-full md:w-3/5 container bg-black justify size-auto mt-20 items-center ml-0 md:ml-20">
                 <Title>Financial Management with Toonie</Title>
                 <p className="mt-2 clear-both text-[25px]  text-zinc-700">Master Your Money, Secure Your Future</p>
                 <div className="mt-[70px]">          
@@ -14,7 +14,7 @@ export default function Home(){
                 </div>
             </div>
             <div className="w-full md:w-2/5 mx-auto mr-10 md:justify-start">
-                <Image src="/financial-managment.jpg" alt="financial-managment" className="rounded-[15px]" width={510} height={510} />
+                <Image src="/financial-managment.jpg" alt="financial-managment" className="rounded-[15px]" width={610} height={610} />
             </div>
         </div>
         <div className="container flex w-full items-center justify-center mx-auto mt-[200px]  mb-20">

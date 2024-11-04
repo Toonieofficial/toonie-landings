@@ -18,8 +18,8 @@ export default function Home(){
             </div>
         </div>
         <div className="container flex w-full items-center justify-center mx-auto mt-[200px] mb-20">
-            <div className="rounded-[15px] bg-[url('/testback.png')] py-[100px] bg-no-repeat bg-center bg-contain mx-auto">
-                <p className="text-justify text-[38px] max-w-[800px] justify-end text-white">Toonie offers a range of investment solutions to help you grow your wealth. Whether you seek expert advice or want to take charge, we provide the tools and accounts you need to succeed.</p>
+            <div className="rounded-[15px] bg-[url('/insurance.jpg')] py-[100px] bg-no-repeat bg-center bg-contain mx-auto">
+                <p className="text-justify text-[38px] max-w-[1000px] justify-end text-white">Protect what matters most with Toonie’s insurance solutions. From life to health and more, we ensure you’re covered when it counts.</p>
             </div>
         </div>
 
