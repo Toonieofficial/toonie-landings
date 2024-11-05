@@ -18,7 +18,7 @@ export default function RootLayout({ children }: RootLayoutProps ): JSX.Element 
 
   return (
     <html lang="en" >
-      <body className='bg-black mx-20 font-sans'>
+      <body className='bg-black mx-5 md:mx-20 font-sans'>
         <Header />
         <main className="mt-8 top-20">
           <Providers>{children}</Providers>

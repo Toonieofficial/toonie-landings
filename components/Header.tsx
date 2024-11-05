@@ -3,14 +3,21 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import MobileMenu from '@/components/MobileMenu';
+
 export default function Header() {
 const [hovered, setHovered] = useState(false); 
+const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+};
   return (
-    <header className="sticky flex justify-between items-center mt-8 top-10 z-50">
-      <div className="container bg-black flex justify size-auto items-center rounded-full ml-auto text-white py-5 px-6" style={{border:'1.5px solid white' , }}>
+    <header className="fixed w-full flex justify-between items-center mt-5 top-5 z-50">
+      <div className="container w-full md:w-auto bg-black flex top-10 justify size-auto items-center rounded-full ml-auto text-white md:py-5 md:px-6 p-10 border-[1.5px] border-black md:border-[1.5px] md:border-solid md:border-white">
         
         {/* Logo */}
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="md:flex absolute left-1/2 transform -translate-x-1/2 md:left-2 md:transform-none md:relative justify justify-center items-center ">
           <Image src="/Union.png" alt="Toonie Logo" width={170} height={30} />
         </Link>
         
@@ -57,17 +64,20 @@ const [hovered, setHovered] = useState(false);
         <li><Link href="/career" className="hover:text-toonie">CAREER</Link></li>
         <li><Link href="/about" className="hover:text-toonie">ABOUT</Link></li>
       </ul>
-        </nav>
-        
+        </nav>      
+        <button onClick={toggleMenu} className="text-white text-[45px] absolute left-5 md:hidden">
+            {isMenuOpen ? '✕' : '☰'}
+        </button>
+        <MobileMenu isOpen={isMenuOpen} onClose={toggleMenu} />
       </div>
-      <div className="flex items-center mr-auto ml-3 space-x-4">
-          <Link href="/login" className="text-white bg-black text-lg py-5 px-9 rounded-full hover:bg-toonie hover:text-white transition duration-300" style={{border:'1.5px solid white' , }}>
+      <div className="hidden md:flex items-center mr-auto ml-3 space-x-4">
+          <Link href="/login" className="hidden md:flex text-white bg-black text-lg py-5 px-9 rounded-full hover:bg-toonie hover:text-white transition duration-300" style={{border:'1.5px solid white' , }}>
             Login
           </Link>
-          <Link href="/signup" className="text-white bg-black bg-toonie text-lg py-5 px-9 rounded-full hover:bg-blue-900 transition duration-300">
+          <Link href="/signup" className="hidden md:flex text-white bg-black bg-toonie text-lg py-5 px-9 rounded-full hover:bg-blue-900 transition duration-300">
             Get Started
           </Link>
-        </div>
+      </div>
     </header>
   );
 }
