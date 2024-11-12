@@ -11,7 +11,7 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = ({ children, variant = 'solid', href, onClick }) => {
   const baseStyles = 'text-white border-1.5 border-toonie text-lg py-4 px-8 mt-20 rounded-full transition duration-300';
-  const solidStyles = 'bg-toonie hover:bg-black';
+  const solidStyles = 'bg-toonie hover:cursor-pointer hover:bg-black';
   const outlineStyles = 'bg-black hover:bg-toonie hover:text-white';
 
   const combinedStyles = `${baseStyles} ${variant === 'solid' ? solidStyles : outlineStyles}`;
