@@ -7,7 +7,7 @@ export default function Home(){
   return (
     <div className="container block justify-between items-center mx-auto mt-[270px] mb-[250px]">
         <div className="block md:flex w-full">
-            <div className="w-full md:w-3/5 container bg-black justify size-auto items-center ml-0 md:ml-20">
+            <div className="w-full md:w-3/5 container bg-black justify size-auto items-center">
                 <Title lheight="100px">Empower Your Financial Future with Toonie</Title>
                 <p className="mt-5 max-w-[600px] clear-both text-[25px]  text-zinc-700">Your gateway to secure, innovative, and accessible cryptocurrency and financial services</p>
             </div>
