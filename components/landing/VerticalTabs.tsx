@@ -12,7 +12,7 @@ const VerticalTabs = () => {
   ];
 
   return (
-    <div className="flex h-screen mt-[200px]">
+    <div className="flex mt-[200px]">
       {/* Sidebar for tabs */}
       <div className="w-3/5  flex flex-col items-start space-y-2">
         {tabs.map((tab, index) => (

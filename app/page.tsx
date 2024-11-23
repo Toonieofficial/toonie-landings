@@ -43,6 +43,15 @@ export default function Home(){
             </div>
         </div>
         <VerticalTabs />
+        <div className="block ml-5 mt-[100px] md:flex w-full">
+            <div className="w-full md:w-2/5 container justify size-auto items-center z-10">
+                <Title lheight="100px" fontSize="55px">Invest Early with Toonie’s ICO</Title>
+                <p className="mt-5 max-w-[400px] clear-both text-[25px] text-zinc-700">Be among the first to own Toonie Tokens and participate in the future of digital finance</p>
+            </div>
+            <div className="w-full md:w-3/5 mx-auto mr-10 md:justify-start z-9">
+                <iframe src="https://my.spline.design/websitelandingtooniecharactertoken-44a752fd6774b5e21b0d0b080f1d4f3f/" className="absolute left-[600px] " width={450} height={450} ></iframe>
+            </div>
+        </div>
     </div>
 
   );
