@@ -4,6 +4,7 @@ import Button from '@/components/Button';
 import Title from '@/components/Title';
 import WhyToonie from '@/components/landing/whytoonie';
 import VerticalTabs from '@/components/landing/VerticalTabs';
+import Exclusive from "@/components/landing/exclusive";
 
 export default function Home(){
   return (
@@ -52,6 +53,7 @@ export default function Home(){
                 <iframe src="https://my.spline.design/websitelandingtooniecharactertoken-44a752fd6774b5e21b0d0b080f1d4f3f/" className="absolute left-[600px] " width={450} height={450} ></iframe>
             </div>
         </div>
+        <Exclusive/>
     </div>
 
   );
